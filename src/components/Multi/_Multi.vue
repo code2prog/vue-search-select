@@ -18,7 +18,7 @@
               {{ option.value.text }} <span style="color:blue">HAVE VALUE: {{ option.value.value }} </span>
             </template>
             <template slot="selected" slot-scope="option">
-              {{ option.value.text }} <span style="color:red">HAVE VALUE: {{ option.value.value }} </span>
+              {{ option.value.text }} <span :style="`color:${option.value.value == 5?'gray':'pink'}`">HAVE VALUE: {{ option.value.value }} </span>
             </template>
           </multi-select>
         </div>

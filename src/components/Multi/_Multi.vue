@@ -14,6 +14,12 @@
             placeholder="select item"
             @select="onSelect"
           >
+            <template slot="option" slot-scope="option">
+              {{ option.value.text }} <span style="color:blue">HAVE VALUE: {{ option.value.value }} </span>
+            </template>
+            <template slot="selected" slot-scope="option">
+              {{ option.value.text }} <span style="color:red">HAVE VALUE: {{ option.value.value }} </span>
+            </template>
           </multi-select>
         </div>
       </div>

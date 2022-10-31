@@ -47,7 +47,9 @@
         @mousedown="mousedownItem"
         @mouseenter="pointerSet(idx)"
       >
-        {{option.text}}
+        <slot name="option" :value="option">
+          {{option.text}}
+        </slot>
       </div>
     </div>
   </div>

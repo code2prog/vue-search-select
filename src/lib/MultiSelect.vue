@@ -11,7 +11,7 @@
         v-for="(option, idx) in selectedOptions"
         :key="idx"
         class="ui label transition visible"
-        style="display: inline-block !important;"
+        style="display: inline-flex !important;"
         :data-vss-custom-attr="customAttr(option)"
       >
         <slot name="selected" :value="option">

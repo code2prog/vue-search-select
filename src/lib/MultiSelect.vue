@@ -17,7 +17,7 @@
         <slot name="selected" :value="option">
           {{option.text}}
         </slot>
-        <i class="delete icon" @click="deleteItem(option)"></i>
+        <i class="delete icon" @click="deleteItem(option)" v-if="option.disabled !== true"></i>
       </a>
     </template>
     <input

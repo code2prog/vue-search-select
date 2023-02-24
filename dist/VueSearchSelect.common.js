@@ -4179,9 +4179,9 @@ var ListSelect_component = normalizeComponent(
 )
 
 /* harmony default export */ var ListSelect = (ListSelect_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"57d954a4-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib/MultiSelect.vue?vue&type=template&id=6dd93b7a&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"57d954a4-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib/MultiSelect.vue?vue&type=template&id=2d424ac9&
 
-var MultiSelectvue_type_template_id_6dd93b7a_render = function render() {
+var MultiSelectvue_type_template_id_2d424ac9_render = function render() {
   var _vm = this,
     _c = _vm._self._c;
   return _c('div', {
@@ -4211,14 +4211,14 @@ var MultiSelectvue_type_template_id_6dd93b7a_render = function render() {
       return [_vm._v("\n        " + _vm._s(option.text) + "\n      ")];
     }, {
       "value": option
-    }), _c('i', {
+    }), option.disabled !== true ? _c('i', {
       staticClass: "delete icon",
       on: {
         "click": function click($event) {
           return _vm.deleteItem(option);
         }
       }
-    })], 2);
+    }) : _vm._e()], 2);
   }) : _vm._e(), _c('input', {
     directives: [{
       name: "model",
@@ -4314,9 +4314,9 @@ var MultiSelectvue_type_template_id_6dd93b7a_render = function render() {
     })], 2)];
   })], 2)], 2);
 };
-var MultiSelectvue_type_template_id_6dd93b7a_staticRenderFns = [];
+var MultiSelectvue_type_template_id_2d424ac9_staticRenderFns = [];
 
-// CONCATENATED MODULE: ./src/lib/MultiSelect.vue?vue&type=template&id=6dd93b7a&
+// CONCATENATED MODULE: ./src/lib/MultiSelect.vue?vue&type=template&id=2d424ac9&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es6.regexp.to-string.js
 var es6_regexp_to_string = __webpack_require__("6b54");
@@ -4496,8 +4496,8 @@ var es6_regexp_to_string = __webpack_require__("6b54");
 
 var MultiSelect_component = normalizeComponent(
   lib_MultiSelectvue_type_script_lang_js_,
-  MultiSelectvue_type_template_id_6dd93b7a_render,
-  MultiSelectvue_type_template_id_6dd93b7a_staticRenderFns,
+  MultiSelectvue_type_template_id_2d424ac9_render,
+  MultiSelectvue_type_template_id_2d424ac9_staticRenderFns,
   false,
   null,
   null,

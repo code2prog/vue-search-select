@@ -55,7 +55,7 @@
         <div
           :key="idx"
           class="item"
-          :class="{ 'selected': option.selected || pointer === idx }"
+          :class="{ 'selected': option.selected || pointer === idx, 'disabled': option.disabled }"
           :data-vss-custom-attr="customAttr(option)"
           @click.stop="selectItem(option)"
           @mousedown="mousedownItem"

@@ -15,7 +15,7 @@
         :data-vss-custom-attr="customAttr(option)"
       >
         <slot name="selected" :value="option">
-          {{option.text}}
+          {{option.text}} {{option.disabled}}
         </slot>
         <i class="delete icon" @click="deleteItem(option)" v-if="option.disabled !== true"></i>
       </a>

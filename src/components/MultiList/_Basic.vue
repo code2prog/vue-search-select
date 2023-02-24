@@ -78,7 +78,7 @@ export default {
   data () {
     return {
       someList: [
-        { code: '01', name: 'aa', desc: 'desc01' },
+        { code: '01', name: 'aa', desc: 'desc01', disabled: true },
         { code: '02', name: 'ab', desc: 'desc02' },
         { code: '03', name: 'bc', desc: 'desc03' },
         { code: '04', name: 'cd', desc: 'desc04' },

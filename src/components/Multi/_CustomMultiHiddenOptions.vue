@@ -45,7 +45,7 @@
             </thead>
             <tbody>
             <tr v-for="item in items" :key="item.value">
-              <td><i class="delete icon" @click="deleteItem(item)"></i></td>
+              <td><i class="delete icon" @click="deleteItem(item)" v-if="item.disabled !== true"></i></td>
               <td>{{item.value}}</td>
               <td>{{item.text}}</td>
             </tr>

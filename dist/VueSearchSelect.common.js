@@ -4179,9 +4179,9 @@ var ListSelect_component = normalizeComponent(
 )
 
 /* harmony default export */ var ListSelect = (ListSelect_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"57d954a4-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib/MultiSelect.vue?vue&type=template&id=2d424ac9&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"57d954a4-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib/MultiSelect.vue?vue&type=template&id=5cc1f8be&
 
-var MultiSelectvue_type_template_id_2d424ac9_render = function render() {
+var MultiSelectvue_type_template_id_5cc1f8be_render = function render() {
   var _vm = this,
     _c = _vm._self._c;
   return _c('div', {
@@ -4208,7 +4208,7 @@ var MultiSelectvue_type_template_id_2d424ac9_render = function render() {
         "data-vss-custom-attr": _vm.customAttr(option)
       }
     }, [_vm._t("selected", function () {
-      return [_vm._v("\n        " + _vm._s(option.text) + "\n      ")];
+      return [_vm._v("\n        " + _vm._s(option.text) + " " + _vm._s(option.disabled) + "\n      ")];
     }, {
       "value": option
     }), option.disabled !== true ? _c('i', {
@@ -4314,9 +4314,9 @@ var MultiSelectvue_type_template_id_2d424ac9_render = function render() {
     })], 2)];
   })], 2)], 2);
 };
-var MultiSelectvue_type_template_id_2d424ac9_staticRenderFns = [];
+var MultiSelectvue_type_template_id_5cc1f8be_staticRenderFns = [];
 
-// CONCATENATED MODULE: ./src/lib/MultiSelect.vue?vue&type=template&id=2d424ac9&
+// CONCATENATED MODULE: ./src/lib/MultiSelect.vue?vue&type=template&id=5cc1f8be&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es6.regexp.to-string.js
 var es6_regexp_to_string = __webpack_require__("6b54");
@@ -4496,8 +4496,8 @@ var es6_regexp_to_string = __webpack_require__("6b54");
 
 var MultiSelect_component = normalizeComponent(
   lib_MultiSelectvue_type_script_lang_js_,
-  MultiSelectvue_type_template_id_2d424ac9_render,
-  MultiSelectvue_type_template_id_2d424ac9_staticRenderFns,
+  MultiSelectvue_type_template_id_5cc1f8be_render,
+  MultiSelectvue_type_template_id_5cc1f8be_staticRenderFns,
   false,
   null,
   null,

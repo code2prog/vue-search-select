@@ -14,8 +14,8 @@
             placeholder="placeholder text"
             @searchchange="printSearchText"
           >
-            <template slot="selected" slot-scope="selected">
-              <span><img class="character-option-icon mr-1" src="/images/slack.png"> #{{ selected.value }}</span>
+            <template slot="selected" slot-scope="selectedOption">
+             {{selectedOption.value.text}}
             </template>
           </model-select>
         </div>
@@ -49,7 +49,7 @@ export default {
     return {
       // item1
       options: [
-        { value: '1', text: 'aa' + ' - ' + '1' },
+        { value: '1', text: 'aa' + ' - ' + '1', down: 'false' },
         { value: '2', text: 'ab' + ' - ' + '2' },
         { value: '3', text: 'bc' + ' - ' + '3' },
         { value: '4', text: 'cd' + ' - ' + '4' },

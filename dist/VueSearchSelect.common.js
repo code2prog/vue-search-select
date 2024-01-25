@@ -4629,9 +4629,9 @@ var MultiListSelect_component = normalizeComponent(
 )
 
 /* harmony default export */ var MultiListSelect = (MultiListSelect_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"57d954a4-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib/ModelSelect.vue?vue&type=template&id=115e7734&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"57d954a4-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib/ModelSelect.vue?vue&type=template&id=92703868&
 
-var ModelSelectvue_type_template_id_115e7734_render = function render() {
+var ModelSelectvue_type_template_id_92703868_render = function render() {
   var _vm = this,
     _c = _vm._self._c;
   return _c('div', {
@@ -4696,7 +4696,11 @@ var ModelSelectvue_type_template_id_115e7734_render = function render() {
     attrs: {
       "data-vss-custom-attr": _vm.searchTextCustomAttr
     }
-  }, [_vm._t("selected", function () {
+  }, [_vm.selectedOption ? _vm._t("selected", function () {
+    return [_vm._v(_vm._s(_vm.selectedOption.text))];
+  }, {
+    "value": _vm.selectedOption
+  }) : _vm._t("selected", function () {
     return [_vm._v(_vm._s(_vm.inputText))];
   }, {
     "value": _vm.inputText
@@ -4740,9 +4744,9 @@ var ModelSelectvue_type_template_id_115e7734_render = function render() {
     })], 2);
   }), 0)]);
 };
-var ModelSelectvue_type_template_id_115e7734_staticRenderFns = [];
+var ModelSelectvue_type_template_id_92703868_staticRenderFns = [];
 
-// CONCATENATED MODULE: ./src/lib/ModelSelect.vue?vue&type=template&id=115e7734&
+// CONCATENATED MODULE: ./src/lib/ModelSelect.vue?vue&type=template&id=92703868&
 
 // EXTERNAL MODULE: ./node_modules/@babel/runtime-corejs2/core-js/symbol.js
 var symbol = __webpack_require__("67bb");
@@ -4936,8 +4940,8 @@ var es6_number_constructor = __webpack_require__("c5f6");
 
 var ModelSelect_component = normalizeComponent(
   lib_ModelSelectvue_type_script_lang_js_,
-  ModelSelectvue_type_template_id_115e7734_render,
-  ModelSelectvue_type_template_id_115e7734_staticRenderFns,
+  ModelSelectvue_type_template_id_92703868_render,
+  ModelSelectvue_type_template_id_92703868_staticRenderFns,
   false,
   null,
   null,

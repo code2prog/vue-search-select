@@ -1,6 +1,6 @@
 {
   "name": "vue-search-select",
-  "version": "2.9.12",
+  "version": "2.9.13",
   "description": "A Vue.js search select form component",
   "author": "moreta <moretajoo@gmail.com>",
   "license": "MIT",
@@ -20,7 +20,7 @@
     "build": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
-    "lib:build": "vue-cli-service build --target lib --name VueSearchSelect ./src/lib/index.js",
+    "lib:build": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service build --target lib --name VueSearchSelect ./src/lib/index.js",
     "lib:publish": "npm run lib:build && npm publish",
     "lib:publish:alpha": "npm run lib:build && npm publish --tag alpha"
   },

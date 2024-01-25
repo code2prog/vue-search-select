@@ -72,7 +72,7 @@ export default {
   data () {
     return {
       options: [
-        { value: '1', text: 'aa' + ' - ' + '1'},
+        { value: '1', text: 'aa' + ' - ' + '1' },
         { value: '2', text: 'ab' + ' - ' + '2' },
         { value: '3', text: 'bc' + ' - ' + '3' },
         { value: '4', text: 'cd' + ' - ' + '4' },

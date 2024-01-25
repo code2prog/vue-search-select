@@ -14,6 +14,9 @@
             placeholder="placeholder text"
             @searchchange="printSearchText"
           >
+            <template slot="selected" slot-scope="selected">
+              <span><img class="character-option-icon mr-1" src="/images/slack.png"> #{{ selected.value }}</span>
+            </template>
           </model-select>
         </div>
       </div>

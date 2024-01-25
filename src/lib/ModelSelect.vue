@@ -27,7 +27,9 @@
     <div
       class="text"
       :class="textClass" :data-vss-custom-attr="searchTextCustomAttr"
-    >{{inputText}}
+    >
+      <slot name="selected" :value="inputText">{{inputText}}</slot>
+
     </div>
     <div
       class="menu"

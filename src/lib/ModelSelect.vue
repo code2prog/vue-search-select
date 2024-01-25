@@ -28,7 +28,7 @@
       class="text"
       :class="textClass" :data-vss-custom-attr="searchTextCustomAttr"
     >
-      <slot name="selected" :value="selectedOption" v-if="selectedOption">{{selectedOption}}</slot>
+      <slot name="selected" :value="selectedOption" v-if="selectedOption">{{selectedOption.text}}</slot>
       <slot name="selected" :value="inputText" v-else>{{inputText}}</slot>
 
     </div>

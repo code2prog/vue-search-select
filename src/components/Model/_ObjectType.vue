@@ -15,7 +15,7 @@
             @searchchange="printSearchText"
           >
             <template slot="selected" slot-scope="selectedOption">
-             {{selectedOption}}
+             {{selectedOption.value}}
             </template>
           </model-select>
         </div>
